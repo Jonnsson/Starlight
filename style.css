@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #36635a;
+    color: white;
+    size: 10;
+    font-size: 50px;
+    width:auto;  
+    text-align: center;
+}
+
+.fundo{
+    width: 100%;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #5a86a6;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #36635a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #335c71;
+    border-radius: 5px;
+     color:#ffffff;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+    text-align: center;
+    size: 5px;
+}
+
+text{
+font-size: 25px;
+font-family: Segoe UI;
+font-style: bold;
+color:white;
+line-height: 35px;
+text-align: center;
+}
+
+main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #5a86a6;
+}
+
+/* Parágrafo de texto */
+main p {
+    font-size: 5px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Estilo da seção de imagens */
+.album-covers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.album-covers img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.album-covers img:hover {
+    transform: scale(1.1);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #467791;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
